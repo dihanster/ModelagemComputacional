@@ -1,0 +1,28 @@
+#define nVertices 1000 /*Numero de vertices*/
+#define prob_infec 0.05 /*Prob. de um individuo saudavel ser infectado*/
+#define prob_rec 0.35 /*Prob. de um individuo infectado se recuperar*/
+#define prob_infec2 0.7 /*Prob. de um individuo recuperado ser infectado*/
+#define prob_rec2 0.7 /*Prob. de um individuo recuperado, infectar de novo*/
+#define infec_inicial 50 /*Pop. inicial de infectados*/
+#define tempo 1000 /*Numero de ciclos*/
+#define imunizacao 7 /*Dias que a pessoa fica imune à doença após a recuperação no modelo SIRS*/
+#define qtdVacinados 20 /*Multiplo de grupos_ciclo*/ /*Numero de pessoas imunizadas por ciclo*/
+#define grupos_ciclo 2 /*1<= grupos_ciclo <= qtdGrupos*/ /* Quantidade de grupos entre os quais a vacinaçao sera distribuida nos metodos 7, 8, 9 e 10*/
+#define qtdGrupos 21 /*Quantidade de Grupos/Comunidades*/
+
+
+
+
+
+Plotar para todos os ciclos, e colocar no drive o gráfico de cada modelo junto com os da primeira rede
+
+
+Plotar também para o ciclo 7 mais 2 graficos mudando o grupos_ciclo
+O primeiro plotado está em 2, mudar para 5 e para 10, colocar os dois gráficos plotados na conclusão.
+
+
+
+
+
+*******************************
+Os resultados devem ser iguais aos da rede que já plotamos todos os gráficos

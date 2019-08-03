@@ -1,0 +1,14 @@
+#define nVertices 1000 /*Numero de vertices*/
+#define prob_infec 0.05 /*Prob. de um individuo saudavel ser infectado*/
+#define prob_rec 0.35 /*Prob. de um individuo infectado se recuperar*/
+#define prob_infec2 0.7 /*Prob. de um individuo recuperado ser infectado*/
+#define prob_rec2 0.7 /*Prob. de um individuo recuperado, infectar de novo*/
+#define infec_inicial 50 /*Pop. inicial de infectados*/
+#define tempo 1000 /*Numero de ciclos*/
+#define imunizacao 7 /*Dias que a pessoa fica imune à doença após a recuperação no modelo SIRS*/
+#define qtdVacinados 27/*Multiplo de grupos_ciclo*/ /*Numero de pessoas imunizadas por ciclo*/
+#define grupos_ciclo 3 /*1<= grupos_ciclo <= qtdGrupos*/ /* Quantidade de grupos entre os quais a vacinaçao sera distribuida nos metodos 7, 8, 9 e 10*/
+#define qtdGrupos 54 /*Quantidade de Grupos/Comunidades*/
+
+Plotar para todos os 10 ciclos principais e mais 2 gráficos,
+variando grupos_ciclo para 9 e para 27
